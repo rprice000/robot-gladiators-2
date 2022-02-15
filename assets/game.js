@@ -38,17 +38,30 @@ var playerAttack = 10;
 var playerMoney = 10;
 
 // Line below console logs the variables playerName, playerAttack, playerHealth
-console.log(playerName, playerAttack, playerHealth);
+// console.log(playerName, playerAttack, playerHealth);
 
 // Line below sets variable enemyName to Roborto
-var enemyName = "Roborto";
+// Commented out becuase wanting to create multiple enemies to fight
+// var enemyName = "Roborto";
+// Line below create a array of enemies stored in variable enemyName
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+// console.log(enemyNames);
+
+// Lines below loop the the enemyNames array and log each enemy and their corresponding index number
+// for(var i = 0; i < enemyNames.length; i++) {
+//   console.log(enemyNames[i]);
+//   console.log(i);
+//   console.log(enemyNames[i] + " is at " + i + " index");
+// }
 // Line below sets variable enemyHealth to equal 50
 var enemyHealth = 50;
 // Line below sets variable enemyAttack to equal 12
 var enemyAttack = 12;
 
+
+
 // Following 3 lines sets variable fight to a function that give a alert box
-var fight = function() {
+var fight = function(enemyName) {
   // Alert players that they are starting the round
   window.alert("Welcome to Robot Gladiators!");
 
@@ -114,4 +127,14 @@ var fight = function() {
 
 };
 
-fight();
+
+// Line below calls the fight function.  Only one round with one enemy will be played
+// fight();
+
+// Line below calls the fight function with the argument enemyName.  i represents the actual robot.
+// A for loop is used to loop throught the enemyNames array.  This argument will be passed to the 
+// parameter in the fight function where the fight function is defined above.
+for(var i = 0; i < enemyNames.length; i++) {
+  fight(enemyNames[i]);
+  console.log(enemyNames[i]);
+}
