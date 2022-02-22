@@ -52,9 +52,8 @@ The Game will work as follows:
 There are no technologies that need to be installed for this application.
 
 ## Technologies
-- HTML
-- Javascript
-- ChromeDev Tools
+![HTML5](https://img.shields.io/badge/-HTML5-cf250e?logo=html5&logoColor=white&style=plastic)
+![Javascript](https://img.shields.io/badge/-Javascript-F7DF1E?logo=javascript&logoColor=black&style=plastic)
 
 ## Testing
 There are no testing dependencies for this application.
