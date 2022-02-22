@@ -63,7 +63,7 @@ GitHub Repo
 https://github.com/rprice000/robot-gladiators-2
 
 Deployed GitHub Page
-
+https://rprice000.github.io/robot-gladiators-2/
 
 ## Version
 - 2.0.0
