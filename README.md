@@ -48,6 +48,8 @@ The Game will work as follows:
 - The game will display the player-robot's remaining health points.
 - The game will end.
 
+![Starting Image](assets/images/alertGameStart-image.JPG)
+
 ## Installation
 There are no technologies that need to be installed for this application.
 
